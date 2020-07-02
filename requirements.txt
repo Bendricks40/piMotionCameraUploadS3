@@ -1,0 +1,6 @@
+boto3
+picamera
+playsound
+RPi.gpio
+gpizero
+configparser
