@@ -1,1 +1,2 @@
 This app is used to run on a Raspberry Pi with a motion detector and Pi Camera hooked up. It looks for motion, and once detected, it snaps a couple pictures and then uploads to S3! Second part of this app will run off an S3 trigger which kicks off a lambda that uses Rekognition to alert when certain object is found.
+Note: This project uses a separage config.py file with S3 account informatin. For obvious reasons, it was not included in my commit to Github but you'll need your own to make this work.
